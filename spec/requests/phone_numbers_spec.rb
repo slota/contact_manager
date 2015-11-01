@@ -6,5 +6,9 @@ RSpec.describe "PhoneNumbers", type: :request do
       get phone_numbers_path
       expect(response).to have_http_status(200)
     end
+
+    # it 'is associated with a person' do
+    #   expect(phone_number).to respond_to(:person)
+    # end
   end
 end
